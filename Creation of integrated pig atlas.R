@@ -14,6 +14,7 @@
   library(SeuratWrappers) # Extensions for the Seurat package
   library(Matrix)     # For sparse and other matrix methods
   library(tidyverse)  # For data manipulation and visualization
+  library(DoubletFinder) # For doublet identification and removal
 }
 
 # The code below was used for the individual processing of samples before integration, 
